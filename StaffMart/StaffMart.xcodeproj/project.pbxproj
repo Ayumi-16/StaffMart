@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0017E5C22D83199300B1F641 /* StaffMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E5C12D83199300B1F641 /* StaffMartApp.swift */; };
+		0017E5C42D83199300B1F641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E5C32D83199300B1F641 /* ContentView.swift */; };
+		0017E5C62D83199A00B1F641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0017E5C52D83199A00B1F641 /* Assets.xcassets */; };
+		0017E5C92D83199A00B1F641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0017E5C82D83199A00B1F641 /* Preview Assets.xcassets */; };
+		0017E5D32D83199C00B1F641 /* StaffMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E5D22D83199C00B1F641 /* StaffMartTests.swift */; };
+		0017E5DD2D83199C00B1F641 /* StaffMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E5DC2D83199C00B1F641 /* StaffMartUITests.swift */; };
+		0017E5DF2D83199C00B1F641 /* StaffMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017E5DE2D83199C00B1F641 /* StaffMartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0017E5CF2D83199C00B1F641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0017E5B62D83199300B1F641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0017E5BD2D83199300B1F641;
+			remoteInfo = StaffMart;
+		};
+		0017E5D92D83199C00B1F641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0017E5B62D83199300B1F641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0017E5BD2D83199300B1F641;
+			remoteInfo = StaffMart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0017E5BE2D83199300B1F641 /* StaffMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E5C12D83199300B1F641 /* StaffMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffMartApp.swift; sourceTree = "<group>"; };
+		0017E5C32D83199300B1F641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0017E5C52D83199A00B1F641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0017E5C82D83199A00B1F641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0017E5CE2D83199C00B1F641 /* StaffMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaffMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E5D22D83199C00B1F641 /* StaffMartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffMartTests.swift; sourceTree = "<group>"; };
+		0017E5D82D83199C00B1F641 /* StaffMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaffMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017E5DC2D83199C00B1F641 /* StaffMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffMartUITests.swift; sourceTree = "<group>"; };
+		0017E5DE2D83199C00B1F641 /* StaffMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0017E5BB2D83199300B1F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5CB2D83199C00B1F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5D52D83199C00B1F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0017E5B52D83199300B1F641 = {
+			isa = PBXGroup;
+			children = (
+				0017E5C02D83199300B1F641 /* StaffMart */,
+				0017E5D12D83199C00B1F641 /* StaffMartTests */,
+				0017E5DB2D83199C00B1F641 /* StaffMartUITests */,
+				0017E5BF2D83199300B1F641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0017E5BF2D83199300B1F641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0017E5BE2D83199300B1F641 /* StaffMart.app */,
+				0017E5CE2D83199C00B1F641 /* StaffMartTests.xctest */,
+				0017E5D82D83199C00B1F641 /* StaffMartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0017E5C02D83199300B1F641 /* StaffMart */ = {
+			isa = PBXGroup;
+			children = (
+				0017E5C12D83199300B1F641 /* StaffMartApp.swift */,
+				0017E5C32D83199300B1F641 /* ContentView.swift */,
+				0017E5C52D83199A00B1F641 /* Assets.xcassets */,
+				0017E5C72D83199A00B1F641 /* Preview Content */,
+			);
+			path = StaffMart;
+			sourceTree = "<group>";
+		};
+		0017E5C72D83199A00B1F641 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0017E5C82D83199A00B1F641 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0017E5D12D83199C00B1F641 /* StaffMartTests */ = {
+			isa = PBXGroup;
+			children = (
+				0017E5D22D83199C00B1F641 /* StaffMartTests.swift */,
+			);
+			path = StaffMartTests;
+			sourceTree = "<group>";
+		};
+		0017E5DB2D83199C00B1F641 /* StaffMartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0017E5DC2D83199C00B1F641 /* StaffMartUITests.swift */,
+				0017E5DE2D83199C00B1F641 /* StaffMartUITestsLaunchTests.swift */,
+			);
+			path = StaffMartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0017E5BD2D83199300B1F641 /* StaffMart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E5E22D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMart" */;
+			buildPhases = (
+				0017E5BA2D83199300B1F641 /* Sources */,
+				0017E5BB2D83199300B1F641 /* Frameworks */,
+				0017E5BC2D83199300B1F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaffMart;
+			productName = StaffMart;
+			productReference = 0017E5BE2D83199300B1F641 /* StaffMart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0017E5CD2D83199C00B1F641 /* StaffMartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E5E52D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMartTests" */;
+			buildPhases = (
+				0017E5CA2D83199C00B1F641 /* Sources */,
+				0017E5CB2D83199C00B1F641 /* Frameworks */,
+				0017E5CC2D83199C00B1F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0017E5D02D83199C00B1F641 /* PBXTargetDependency */,
+			);
+			name = StaffMartTests;
+			productName = StaffMartTests;
+			productReference = 0017E5CE2D83199C00B1F641 /* StaffMartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0017E5D72D83199C00B1F641 /* StaffMartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017E5E82D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMartUITests" */;
+			buildPhases = (
+				0017E5D42D83199C00B1F641 /* Sources */,
+				0017E5D52D83199C00B1F641 /* Frameworks */,
+				0017E5D62D83199C00B1F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0017E5DA2D83199C00B1F641 /* PBXTargetDependency */,
+			);
+			name = StaffMartUITests;
+			productName = StaffMartUITests;
+			productReference = 0017E5D82D83199C00B1F641 /* StaffMartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0017E5B62D83199300B1F641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0017E5BD2D83199300B1F641 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0017E5CD2D83199C00B1F641 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0017E5BD2D83199300B1F641;
+					};
+					0017E5D72D83199C00B1F641 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0017E5BD2D83199300B1F641;
+					};
+				};
+			};
+			buildConfigurationList = 0017E5B92D83199300B1F641 /* Build configuration list for PBXProject "StaffMart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0017E5B52D83199300B1F641;
+			productRefGroup = 0017E5BF2D83199300B1F641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0017E5BD2D83199300B1F641 /* StaffMart */,
+				0017E5CD2D83199C00B1F641 /* StaffMartTests */,
+				0017E5D72D83199C00B1F641 /* StaffMartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0017E5BC2D83199300B1F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E5C92D83199A00B1F641 /* Preview Assets.xcassets in Resources */,
+				0017E5C62D83199A00B1F641 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5CC2D83199C00B1F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5D62D83199C00B1F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0017E5BA2D83199300B1F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E5C42D83199300B1F641 /* ContentView.swift in Sources */,
+				0017E5C22D83199300B1F641 /* StaffMartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5CA2D83199C00B1F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E5D32D83199C00B1F641 /* StaffMartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017E5D42D83199C00B1F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017E5DD2D83199C00B1F641 /* StaffMartUITests.swift in Sources */,
+				0017E5DF2D83199C00B1F641 /* StaffMartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0017E5D02D83199C00B1F641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0017E5BD2D83199300B1F641 /* StaffMart */;
+			targetProxy = 0017E5CF2D83199C00B1F641 /* PBXContainerItemProxy */;
+		};
+		0017E5DA2D83199C00B1F641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0017E5BD2D83199300B1F641 /* StaffMart */;
+			targetProxy = 0017E5D92D83199C00B1F641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0017E5E02D83199C00B1F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0017E5E12D83199C00B1F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0017E5E32D83199C00B1F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StaffMart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0017E5E42D83199C00B1F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StaffMart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0017E5E62D83199C00B1F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaffMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StaffMart";
+			};
+			name = Debug;
+		};
+		0017E5E72D83199C00B1F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaffMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StaffMart";
+			};
+			name = Release;
+		};
+		0017E5E92D83199C00B1F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StaffMart;
+			};
+			name = Debug;
+		};
+		0017E5EA2D83199C00B1F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ayu.StaffMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StaffMart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0017E5B92D83199300B1F641 /* Build configuration list for PBXProject "StaffMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E5E02D83199C00B1F641 /* Debug */,
+				0017E5E12D83199C00B1F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E5E22D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E5E32D83199C00B1F641 /* Debug */,
+				0017E5E42D83199C00B1F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E5E52D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E5E62D83199C00B1F641 /* Debug */,
+				0017E5E72D83199C00B1F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017E5E82D83199C00B1F641 /* Build configuration list for PBXNativeTarget "StaffMartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017E5E92D83199C00B1F641 /* Debug */,
+				0017E5EA2D83199C00B1F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0017E5B62D83199300B1F641 /* Project object */;
+}
